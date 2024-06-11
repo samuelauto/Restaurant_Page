@@ -6,7 +6,7 @@ function Contact(){
     title.textContent = "Acerca de Nosotros";
     div.appendChild(title);
 
-    for(let i=0;i<2;i++){
+    for(let i=0;i<3;i++){
         const section = document.createElement('div')
         const titleSection = document.createElement('h3');
         const name = document.createElement('p');
