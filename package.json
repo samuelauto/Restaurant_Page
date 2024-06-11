@@ -1,0 +1,28 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelauto/Restaurant_Page.git"
+  },
+  "author": "samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelauto/Restaurant_Page/issues"
+  },
+  "homepage": "https://github.com/samuelauto/Restaurant_Page#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
