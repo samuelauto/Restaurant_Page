@@ -30,12 +30,16 @@ function Main(){
         switch(seccion){
             case 'contact': controler.contact.classList.remove('actual');
                             e.target.classList.add('actual');
-                            controler.content.removeChild(controler.content.firstChild);
+                            while(controler.content.firstChild){
+                                controler.content.removeChild(controler.content.firstChild);
+                            }
                             Init();
                             break;
             case 'menu': controler.menu.classList.remove('actual');
                          e.target.classList.add('actual');
-                         controler.content.removeChild(controler.content.firstChild);
+                         while(controler.content.firstChild){
+                            controler.content.removeChild(controler.content.firstChild);
+                         }
                          Init();
                          break;
             default:     break;
@@ -47,12 +51,16 @@ function Main(){
         switch(seccion){
             case 'init': controler.init.classList.remove('actual');
                          e.target.classList.add('actual');
-                         controler.content.removeChild(controler.content.firstChild);
+                         while(controler.content.firstChild){
+                            controler.content.removeChild(controler.content.firstChild);
+                         }
                          Contact();
                          break;
             case 'menu': controler.menu.classList.remove('actual');
                          e.target.classList.add('actual')
-                         controler.content.removeChild(controler.content.firstChild);
+                         while(controler.content.firstChild){
+                            controler.content.removeChild(controler.content.firstChild);
+                         }
                          Contact();
                          break;
             default:     break;
@@ -64,12 +72,16 @@ function Main(){
         switch(seccion){
             case 'init': controler.init.classList.remove('actual');
                          e.target.classList.add('actual');
-                         controler.content.removeChild(controler.content.firstChild);
+                         while(controler.content.firstChild){
+                            controler.content.removeChild(controler.content.firstChild);
+                         }
                          Menu();
                          break;
             case 'contact': controler.contact.classList.remove('actual')
                             e.target.classList.add('actual');
-                            controler.content.removeChild(controler.content.firstChild);
+                            while(controler.content.firstChild){
+                                controler.content.removeChild(controler.content.firstChild);
+                             }
                             Menu();
                             break;
             default:    break;        
